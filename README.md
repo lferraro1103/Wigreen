@@ -30,4 +30,5 @@ Para un uso comercial se necesita autorización separada del titular. Consultá 
 
 La versión 1.1 separa las funciones: **Wigreen 1** (`ar.wigreen`, proyecto raíz) contiene solo hora, fecha y clima. **Wigreen 2** (`ar.wigreen2`, carpeta Wigreen2) contiene solo la barra de Google. Cada widget abre su propia app. Wigreen 1 actualiza la instalación anterior y conserva la ubicación; la barra anterior debe agregarse nuevamente desde Wigreen 2. Licon no cambia.
 
-Los nuevos APK tienen compilación, Android Lint y firmas verificados. Las pruebas en dispositivo de esta separación están pendientes.
+Los nuevos APK tienen compilación, Android Lint y firmas verificados. La instalación y las pruebas en dispositivo de clima, reloj, transparencia, cancelación y acciones Google/búsqueda/voz/Lens fueron verificadas. Ambas apps abren su propia pantalla.
+
