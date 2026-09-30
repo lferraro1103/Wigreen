@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <queries><package android:name="com.google.android.googlequicksearchbox"/><package android:name="com.sec.android.daemonapp"/><provider android:authorities="com.samsung.android.weather.content.provider.level.dangerous"/><intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent></queries>
+    <queries><package android:name="com.google.android.googlequicksearchbox"/></queries>
     <application android:label="Wigreen 2" android:icon="@drawable/search_google" android:roundIcon="@drawable/search_google" android:theme="@style/AppTheme" android:allowBackup="false" android:supportsRtl="true">
-        <activity android:name=".MainActivity" android:exported="true" android:resizeableActivity="true">
-            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
-        </activity>
-        <activity android:name=".SearchConfigActivity" android:exported="false"/>
         <activity android:name=".SearchLaunchActivity" android:exported="false" android:theme="@android:style/Theme.NoDisplay"/>
         <receiver android:name=".SearchWidgetProvider" android:exported="false" android:label="Barra Google · Salvia">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
@@ -13,6 +9,7 @@
         </receiver>
     </application>
 </manifest>
+
 
 
 

@@ -32,3 +32,5 @@ La versión 1.1 separa las funciones: **Wigreen 1** (`ar.wigreen`, proyecto raí
 
 Los nuevos APK tienen compilación, Android Lint y firmas verificados. La instalación y las pruebas en dispositivo de clima, reloj, transparencia, cancelación y acciones Google/búsqueda/voz/Lens fueron verificadas. Ambas apps abren su propia pantalla.
 
+
+Wigreen 2 versión 1.0.1 no tiene pantalla de configuración ni icono en el menú de aplicaciones. Agregá la barra desde **Widgets → Wigreen 2**. Sus botones abren Google, búsqueda, voz y Lens. Los widgets existentes se conservan al actualizar.
