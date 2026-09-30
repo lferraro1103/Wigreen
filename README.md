@@ -25,3 +25,9 @@ Identificador: ar.wigreen. Versión actual: 1.0.1. Optimización de consultas y 
 El código y los recursos propios de esta aplicación se ofrecen bajo **PolyForm Noncommercial License 1.0.0**. Podés usar, estudiar, modificar y compartir la app con fines no comerciales, conservando la licencia y los avisos de autoría. La licencia no autoriza venderla ni explotarla comercialmente.
 
 Para un uso comercial se necesita autorización separada del titular. Consultá el texto completo en [LICENSE.md](LICENSE.md) y los avisos en [NOTICE.txt](NOTICE.txt). Los componentes de terceros mantienen sus respectivas licencias.
+
+## Separación en dos apps
+
+La versión 1.1 separa las funciones: **Wigreen 1** (`ar.wigreen`, proyecto raíz) contiene solo hora, fecha y clima. **Wigreen 2** (`ar.wigreen2`, carpeta Wigreen2) contiene solo la barra de Google. Cada widget abre su propia app. Wigreen 1 actualiza la instalación anterior y conserva la ubicación; la barra anterior debe agregarse nuevamente desde Wigreen 2. Licon no cambia.
+
+Los nuevos APK tienen compilación, Android Lint y firmas verificados. Las pruebas en dispositivo de esta separación están pendientes.

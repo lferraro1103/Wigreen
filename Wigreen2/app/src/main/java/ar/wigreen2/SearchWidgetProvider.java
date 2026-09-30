@@ -1,4 +1,4 @@
-package ar.wigreen;
+package ar.wigreen2;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -17,5 +17,6 @@ public class SearchWidgetProvider extends AppWidgetProvider {
     }
     @Override public void onUpdate(Context c,AppWidgetManager m,int[] ids) { m.updateAppWidget(ids,views(c)); }
 }
+
 
 

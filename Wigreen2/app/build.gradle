@@ -1,8 +1,8 @@
 plugins { id 'com.android.application' }
 android {
-    namespace 'ar.wigreen'
+    namespace 'ar.wigreen2'
     compileSdk 35
-    defaultConfig { applicationId 'ar.wigreen'; minSdk 26; targetSdk 35; versionCode 3; versionName '1.1'; testInstrumentationRunner project.findProperty('testRunner') ?: 'ar.wigreen.WeatherInstrumentation' }
+    defaultConfig { applicationId 'ar.wigreen2'; minSdk 26; targetSdk 35; versionCode 1; versionName '1.0'; testInstrumentationRunner project.findProperty('testRunner') ?: 'ar.wigreen2.SearchInstrumentation' }
     testBuildType 'release'
     def signingFile = rootProject.file('signing.properties')
     if (signingFile.exists()) {

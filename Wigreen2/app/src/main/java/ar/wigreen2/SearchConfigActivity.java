@@ -1,4 +1,4 @@
-package ar.wigreen;
+package ar.wigreen2;
 import android.app.Activity;
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -14,5 +14,6 @@ public class SearchConfigActivity extends Activity {
         Button add=new Button(this);add.setText("Agregar barra al inicio");body.addView(add);add.setOnClickListener(v->{AppWidgetManager m=AppWidgetManager.getInstance(this);if(m.isRequestPinAppWidgetSupported())m.requestPinAppWidget(new ComponentName(this,SearchWidgetProvider.class),null,null);else Toast.makeText(this,"Agregala desde Widgets → Wigreen",Toast.LENGTH_LONG).show();});setContentView(body);
     }
 }
+
 
 

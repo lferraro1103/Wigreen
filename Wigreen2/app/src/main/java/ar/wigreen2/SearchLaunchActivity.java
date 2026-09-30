@@ -1,4 +1,4 @@
-package ar.wigreen;
+package ar.wigreen2;
 import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
@@ -25,5 +25,6 @@ public class SearchLaunchActivity extends Activity {
         finish();
     }
 }
+
 
 
