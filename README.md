@@ -19,3 +19,9 @@ Código nativo Java; JDK 17, SDK 35, Gradle 8.9. Configurá ANDROID_HOME y compi
 
 Identificador: ar.wigreen. Versión actual: 1.0.1. Optimización de consultas y redibujado del clima, con cancelación de tareas detenidas. Icono: hoja circular verde oliva.
 
+
+## Licencia
+
+El código y los recursos propios de esta aplicación se ofrecen bajo **PolyForm Noncommercial License 1.0.0**. Podés usar, estudiar, modificar y compartir la app con fines no comerciales, conservando la licencia y los avisos de autoría. La licencia no autoriza venderla ni explotarla comercialmente.
+
+Para un uso comercial se necesita autorización separada del titular. Consultá el texto completo en [LICENSE.md](LICENSE.md) y los avisos en [NOTICE.txt](NOTICE.txt). Los componentes de terceros mantienen sus respectivas licencias.
